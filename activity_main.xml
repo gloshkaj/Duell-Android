@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:id="@+id/layout"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            tools:context="com.androidduell.garen.androidduell.MainActivity">
+            <GridLayout android:id="@+id/board" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:columnCount="10" android:rowCount="9"
+                android:layout_centerHorizontal="true" android:layout_marginBottom="20dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="      1" android:id="@+id/x1" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="      2" android:id="@+id/x2" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="      3" android:id="@+id/x3" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="      4" android:id="@+id/x4" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="      5" android:id="@+id/x5" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="      6" android:id="@+id/x6" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="      7" android:id="@+id/x7" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="      8" android:id="@+id/x8" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="      9" android:id="@+id/x9" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:id="@+id/x0"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo1" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo2" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo3" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo4" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo5" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo6" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo7" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo8" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo9" android:onClick="GetCoordinate"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="       8" android:id="@+id/y8"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo10" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo11" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo12" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo13" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo14" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo15" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo16" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo17" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo18" android:onClick="GetCoordinate"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="       7" android:id="@+id/y7"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo19" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo20" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo21" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo22" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo23" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo24" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo25" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo26" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo27" android:onClick="GetCoordinate"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="       6" android:id="@+id/y6"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo28" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo29" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo30" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo31" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo32" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo33" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo34" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo35" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo36" android:onClick="GetCoordinate"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="       5" android:id="@+id/y5"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo37" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo38" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo39" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo40" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo41" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo42" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo43" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo44" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo45" android:onClick="GetCoordinate"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="       4" android:id="@+id/y4"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo46" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo47" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo48" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo49" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo50" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo51" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo52" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo53" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo54" android:onClick="GetCoordinate"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="       3" android:id="@+id/y3"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo55" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo56" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo57" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo58" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo59" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo60" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo61" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo62" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo63" android:onClick="GetCoordinate"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="       2" android:id="@+id/y2"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo64" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo65" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo66" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo67" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo68" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo69" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo70" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo71" android:onClick="GetCoordinate"/>
+                <Button android:layout_width="50dp" android:layout_height="wrap_content" android:id="@+id/foo72" android:onClick="GetCoordinate"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="       1" android:id="@+id/y1"/>
+            </GridLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""
+                android:id="@+id/prompt"
+                android:layout_marginBottom="10dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""
+                android:id="@+id/scoreprompt"
+                android:layout_marginBottom="10dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""
+                android:id="@+id/nextPlayer"
+                android:layout_marginBottom="10dp"/>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Help"
+                android:id="@+id/help"
+                android:onClick="HelpHuman"/>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save Game"
+                android:id="@+id/save"
+                android:onClick="SaveGame"/>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Computer"
+                android:id="@+id/comp"
+                android:onClick="CompPlay"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""
+                android:id="@+id/savePrompt"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/saveText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"/>
+            <Button
+                android:text="Save to this file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/serialize"
+                android:visibility="gone"
+                android:onClick="Serialize"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>
